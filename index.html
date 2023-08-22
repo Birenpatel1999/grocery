@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery store by cyber warriors</title>
+    <!--code for font awesome cdn-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--code for font awesome cdn-->
+    <!--code for css linking-->
+    <link rel="stylesheet" href="style.css" />
+    <!--code for css linking-->
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!--header section-->
+    <header class="header">
+      <a href="#" class="logo"><i class="fa fa-shopping-basket"></i> grocery</a>
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#features">features</a>
+        <a href="#products">products</a>
+        <a href="#categories">categories</a>
+        <a href="#review">review</a>
+        <a href="#blogs">blogs</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fa fa-bars" id="menu-btn"></div>
+        <div class="fa fa-search" id="search-btn"></div>
+        <div class="fa fa-shopping-cart" id="cart-btn"></div>
+        <div class="fa fa-user" id="login-btn"></div>
+      </div>
+      <form class="search-form">
+        <input type="search" id="search-box" placeholder="search Here..." />
+        <label for="search-box" class="fa fa-search"></label>
+      </form>
+
+      <div class="shopping-cart">
+        <!--******1st div**********-->
+        <div class="box">
+          <i class="fa fa-trash"></i>
+          <img src="cart-img-1.png" />
+          <div class="content">
+            <h3>Watermelon</h3>
+            <span class="price">$5.99/-</span>
+            <span class="quantity">Qty : 1</span>
+          </div>
+        </div>
+
+        <!--*********2nd div**********-->
+        <div class="box">
+          <i class="fa fa-trash"></i>
+          <img src="cart-img-2.png" />
+          <div class="content">
+            <h3>Onion</h3>
+            <span class="price">$4.99/-</span>
+            <span class="quantity">Qty : 2</span>
+          </div>
+        </div>
+        <!--*********3rd div**********-->
+        <div class="box">
+          <i class="fa fa-trash"></i>
+          <img src="cart-img-3.png" />
+          <div class="content">
+            <h3>Chicken</h3>
+            <span class="price">$7.99/-</span>
+            <span class="quantity">Qty : 1</span>
+          </div>
+        </div>
+        <!--********4th div*********-->
+        <div class="total">total : $18.97/-</div>
+        <a href="#" class="btn">Checkout</a>
+      </div>
+      <form action="#" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box" />
+        <input type="password" placeholder="your password" class="box" />
+        <p>forgot your password <a href="#">click here</a></p>
+        <p>don't have an account<a href="#">create now</a></p>
+        <input type="submit" value="login now" class="btn" />
+      </form>
+    </header>
+    <!--header section-->
+
+    <!--************banner section*************-->
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Fresh And <span>Organic</span> products For You</h3>
+        <p>
+          Explore our wide range of fresh, locally sourced organic produce that
+          nourishes both your body and soul.
+        </p>
+        <a href="#" class="btn">shop now</a>
+      </div>
+    </section>
+    <!--************banner section*************-->
+
+    <!--************features section*************-->
+    <section class="features" id="features">
+      <h1 class="heading">Our <span>features</span></h1>
+
+      <div class="box-container">
+        <!--******1st div**********-->
+        <div class="box">
+          <img src="feature-img-1.png" />
+          <h3>Fresh And Organic</h3>
+          <p>
+            Experience the natural flavors and goodness of our freshly harvested
+            organic products.
+          </p>
+          <a href="#" class="btn">read more</a>
+        </div>
+
+        <!--******2nd div**********-->
+        <div class="box">
+          <img src="feature-img-2.png" />
+          <h3>Free delivery</h3>
+          <p>
+            Say Goodbye to Shipping Costs! Benefit from Our Complimentary
+            Delivery Service like a light speed.
+          </p>
+          <a href="#" class="btn">read more</a>
+        </div>
+
+        <!--******3rd div**********-->
+        <div class="box">
+          <img src="feature-img-3.png" />
+          <h3>Easy Payment</h3>
+          <p>
+            Say Hello to Smooth Transactions! Choose from a Range of Simple
+            Payment Choices.
+          </p>
+          <a href="#" class="btn">read more</a>
+        </div>
+      </div>
+    </section>
+    <!--************features section*************-->
+    <!--************products section*************-->
+    <section class="products" id="products">
+      <h1 class="heading">our <span>products</span></h1>
+      <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+          <!-- 1st div -->
+          <div class="swiper-slide box">
+            <img src="product-1.png" />
+            <h1>Fresh orange</h1>
+            <div class="price">$12.99/- -15.99/-</div>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+            <a href="" class="btn">add to cart</a>
+          </div>
+
+          <!-- 2nd div -->
+          <div class="swiper-slide box">
+            <img src="product-2.png" />
+            <h1>Fresh orange</h1>
+            <div class="price">$12.99/- -15.99/-</div>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+            <a href="" class="btn">add to cart</a>
+          </div>
+
+          <!-- 3rd div -->
+          <div class="swiper-slide box">
+            <img src="product-3.png" />
+            <h1>Fresh orange</h1>
+            <div class="price">$12.99/- -15.99/-</div>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+            <a href="" class="btn">add to cart</a>
+          </div>
+
+          <!-- 4th div -->
+          <div class="swiper-slide box">
+            <img src="product-4.png" />
+            <h1>Fresh orange</h1>
+            <div class="price">$12.99/- -15.99/-</div>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+            <a href="" class="btn">add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- *************************************************************************** -->
+      <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+          <!-- 1st div -->
+          <div class="swiper-slide box">
+            <img src="product-5.png" />
+            <h1>Fresh orange</h1>
+            <div class="price">$12.99/- -15.99/-</div>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+            <a href="" class="btn">add to cart</a>
+          </div>
+
+          <!-- 2nd div -->
+          <div class="swiper-slide box">
+            <img src="product-6.png" />
+            <h1>Fresh orange</h1>
+            <div class="price">$12.99/- -15.99/-</div>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+            <a href="" class="btn">add to cart</a>
+          </div>
+
+          <!-- 3rd div -->
+          <div class="swiper-slide box">
+            <img src="product-7.png" />
+            <h1>Fresh orange</h1>
+            <div class="price">$12.99/- -15.99/-</div>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+            <a href="" class="btn">add to cart</a>
+          </div>
+
+          <!-- 4th div -->
+          <div class="swiper-slide box">
+            <img src="product-8.png" />
+            <h1>Fresh orange</h1>
+            <div class="price">$12.99/- -15.99/-</div>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+            <a href="" class="btn">add to cart</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--************products section*************-->
+    <!--************category section*************-->
+    <section class="categories" id="categories">
+      <h1 class="heading">product <span>categories</span></h1>
+      <div class="box-container">
+        <!-- first-div category -->
+        <div class="box">
+          <img src="cat-1.png" />
+          <h3>vegetables</h3>
+          <p>up to 45% off</p>
+          <a href="#" class="btn">shop now</a>
+        </div>
+
+        <!-- second div category -->
+        <div class="box">
+          <img src="cat-2.png" />
+          <h3>fresh fruits</h3>
+          <p>up to 45% off</p>
+          <a href="#" class="btn">shop now</a>
+        </div>
+
+        <!-- third div category  -->
+        <div class="box">
+          <img src="cat-3.png" />
+          <h3>dairy products</h3>
+          <p>up to 45% off</p>
+          <a href="#" class="btn">shop now</a>
+        </div>
+
+        <!-- forth div categoiry -->
+        <div class="box">
+          <img src="cat-4.png" />
+          <h3>fresh meat</h3>
+          <p>up to 45% off</p>
+          <a href="#" class="btn">shop now</a>
+        </div>
+      </div>
+    </section>
+    <!--************category section*************-->
+    <!--************review section*************-->
+    <section class="review" id="review">
+      <h1 class="heading">customer's <span>review</span></h1>
+      <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+          <!-- 1st review div -->
+          <div class="swiper-slide box">
+            <img src="pic-1.png" />
+            <p>
+              Absolutely love shopping on this grocery website! The wide variety
+              of fresh produce and pantry essentials is amazing. The
+              user-friendly interface makes finding items a breeze, and the
+              timely delivery ensures I never run out of groceries. Great job!
+            </p>
+            <h3>john deo</h3>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+          </div>
+          <!-- 2st review div -->
+          <div class="swiper-slide box">
+            <img src="pic-2.png" />
+            <p>
+              I'm a loyal customer of this grocery website for a reason – the
+              quality and service are top-notch! From organic veggies to
+              household products, they have it all. The quick delivery and
+              well-packaged items show their dedication to customer
+              satisfaction. Highly recommend!
+            </p>
+            <h3>emily will</h3>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+          </div>
+          <!-- 3st review div -->
+          <div class="swiper-slide box">
+            <img src="pic-3.png" />
+            <p>
+              This grocery website has transformed my shopping experience. It's
+              like having a virtual supermarket at my fingertips. The
+              competitive prices, frequent discounts, and efficient delivery
+              have made grocery shopping convenient and affordable.
+            </p>
+            <h3>mark wood</h3>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+          </div>
+          <!-- 4st review div -->
+          <div class="swiper-slide box">
+            <img src="pic-4.png" />
+            <p>
+              I can't say enough good things about this grocery website. It's
+              become my go-to place for all things grocery-related. The
+              extensive selection of products, easy navigation, and seamless
+              checkout process make shopping a joy.
+            </p>
+            <h3>alexa root</h3>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--************review section*************-->
+    <!--************blogs section*************-->
+    <section class="blogs" id="blogs">
+      <h1 class="heading">our<span>blogs</span></h1>
+      <div class="box-container">
+        <!-- 1st div blogs -->
+        <div class="box">
+          <img src="blog-1.jpg" />
+          <div class="content">
+            <div class="icons">
+              <a href="#"><i class="fa fa-user"></i> by user</a>
+              <a href="#"><i class="fa fa-calendar"></i> 21 aug, 2023</a>
+            </div>
+            <h3>fresh and organic vegitables and fruits</h3>
+            <p>
+              Discover the future of hassle-free grocery shopping with our
+              website. From diverse produce to household essentials, enjoy an
+              elevated experience that combines convenience, quality, and timely
+              delivery. Join us and redefine the way you shop for groceries
+              today!
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+        <!-- 2st div blogs -->
+        <div class="box">
+          <img src="blog-2.jpg" />
+          <div class="content">
+            <div class="icons">
+              <a href="#"><i class="fa fa-user"></i> by user</a>
+              <a href="#"><i class="fa fa-calendar"></i> 21 aug, 2023</a>
+            </div>
+            <h3>fresh and organic vegitables and fruits</h3>
+            <p>
+              Discover the future of hassle-free grocery shopping with our
+              website. From diverse produce to household essentials, enjoy an
+              elevated experience that combines convenience, quality, and timely
+              delivery. Join us and redefine the way you shop for groceries
+              today!
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+        <!-- 3st div blogs -->
+        <div class="box">
+          <img src="blog-3.jpg" />
+          <div class="content">
+            <div class="icons">
+              <a href="#"><i class="fa fa-user"></i> by user</a>
+              <a href="#"><i class="fa fa-calendar"></i> 21 aug, 2023</a>
+            </div>
+            <h3>fresh and organic vegitables and fruits</h3>
+            <p>
+              Discover the future of hassle-free grocery shopping with our
+              website. From diverse produce to household essentials, enjoy an
+              elevated experience that combines convenience, quality, and timely
+              delivery. Join us and redefine the way you shop for groceries
+              today!
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--************blogs section*************-->
+    <!--************footer section*************-->
+    <section class="footer">
+      <div class="box-container">
+        <!-- 1st footer div -->
+        <div class="box">
+          <h3>groco <i class="fa fa-shopping-basket"></i></h3>
+          <p>
+            feel free to follow us on our social media.all the linkes are given
+            below.
+          </p>
+          <div class="share">
+            <a href="#href"><i class="fa fa-facebook"></i></a>
+            <a href="#href"><i class="fa fa-twitter"></i></a>
+            <a href="#href"><i class="fa fa-instagram"></i></a>
+            <a href="#href"><i class="fa fa-linkedin"></i></a>
+          </div>
+        </div>
+        <!-- 2nd footer div -->
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="#" class="links"
+            ><i class="fa fa-phone"></i> +91 1234567891</a
+          >
+          <a href="#" class="links"
+            ><i class="fa fa-phone"></i> +91 1234567891</a
+          >
+          <a href="#" class="links"
+            ><i class="fa fa-envelope"></i> example@gmail.com</a
+          >
+          <a href="#" class="links"
+            ><i class="fa fa-map-marker"></i> anand , india</a
+          >
+        </div>
+
+        <!-- 3nd footer div -->
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#" class="links"><i class="fa fa-arrow-right"></i> home</a>
+          <a href="#" class="links"
+            ><i class="fa fa-arrow-right"></i> features</a
+          >
+          <a href="#" class="links"
+            ><i class="fa fa-arrow-right"></i> products</a
+          >
+          <a href="#" class="links"
+            ><i class="fa fa-arrow-right"></i> categories</a
+          >
+          <a href="#" class="links"><i class="fa fa-arrow-right"></i> review</a>
+          <a href="#" class="links"><i class="fa fa-arrow-right"></i> blogs</a>
+        </div>
+
+        <!-- 4th footer div -->
+        <div class="box">
+          <h3>newsletter</h3>
+          <p>subscribe fore latest updates</p>
+          <input type="email" placeholder="your email" class="email" />
+          <input type="submit" value="subscribe" class="btn" />
+          <img src="payment.png" class="payment-img" />
+        </div>
+      </div>
+      <div class="credit">
+        Created by <span>Biren Patel</span> | all rights reserved
+      </div>
+    </section>
+    <!--************footer section*************-->
+
+    <script src="script.js"></script>
+
+    <!-- Add this just before the closing </body> tag -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var productSlider = new Swiper(".product-slider", {
+          loop: true,
+          spaceBetween: 20,
+          autoplay: {
+            delay: 7500,
+            disableOnInteraction: false,
+          },
+          breakpoints: {
+            0: {
+              slidesPerView: 1,
+            },
+            768: {
+              slidesPerView: 2,
+            },
+            1020: {
+              slidesPerView: 3,
+            },
+          },
+        });
+      });
+    </script> -->
+  </body>
+</html>
